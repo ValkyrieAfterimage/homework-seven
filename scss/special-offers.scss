@@ -1,0 +1,31 @@
+.special-offers {
+  max-width: $nav-content-max-width;
+  margin: 0 auto;
+  padding: 152px 0 40px;
+
+  .special-offers-title {
+    margin-bottom: 35px;
+  }
+
+  h1 {
+    font-size: 30px;
+    width: fit-content;
+    letter-spacing: 3px;
+    border-bottom: solid 2px $black-text-color;
+  }
+
+  .barcelona {
+    background-image: url(../images/special-offer-01.jpg);
+  }
+
+  .bangkok {
+    background-image: url(../images/special-offer-02.jpg);
+  }
+}
+
+@media (width <= ($nav-content-max-width + 40px)) {
+  .special-offers {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

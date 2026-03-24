@@ -1,0 +1,23 @@
+.blog {
+  max-width: $nav-content-max-width;
+  margin: 0 auto;
+  padding: 152px 0 0;
+
+  .blog-title {
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 30px;
+    width: fit-content;
+    letter-spacing: 3px;
+    border-bottom: solid 2px $black-text-color;
+  }
+}
+
+@media (width <= ($nav-content-max-width + 40px)) {
+  .blog {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
